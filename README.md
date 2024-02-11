@@ -1,22 +1,31 @@
-# Breweries App
+# My Brewery Website
+Visit our website: [My Brewery](https://my-brewery.vercel.app/)
+Explore a comprehensive list of breweries across the USA with the My Brewery website. Our platform offers an intuitive interface for users to discover breweries, delve into detailed information about each one, and enjoy a user-friendly browsing experience.
 
-Fetch, display, and search for brewery companies from the given API endpoint, using React and TypeScript
+## Features
 
-## Requirements
+Our website is designed to enhance your exploration of breweries with the following features:
 
-1. Check the documentation at [https://www.openbrewerydb.org/documentation](https://www.openbrewerydb.org/documentation) Fetch and display information of all the companies.
+- **Brewery List**: Access a complete list of breweries to explore.
+- **Detailed Brewery Information**: Click on any brewery to view its detailed information.
+- **Pagination**: Navigate through the list of breweries easily with pagination.
+- **Filter by Brewery Type**: Find breweries based on their type such as micro, regional, brewpub, and more.
+- **Global Search**: Search for breweries globally by name, city, or state.
+- **Feedback Form**: Share your feedback with us through a simple form.
 
-2. Have proper display and routing that user can switch to/back from specific company's detailed page
+## Technical Stack
 
-3. Create search component to enable user to input text and search for companies by name.
+The website is built using the following technologies:
 
-4. Use MaterialUI to make your design more appealing and responsive
+- **React**: A JavaScript library for building user interfaces.
+- **Material UI**: A popular React UI framework for implementing Google's Material Design.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Axios**: A promise-based HTTP client for the browser and node.js.
 
-5. Deploy your application and rewrite README file
+## Backend API
 
-## Optional
+The data for the breweries is sourced from the Open Brewery DB, which provides a comprehensive and open database of breweries in the United States.
 
-6. Implement performance optimization where applicable
-7. Use the queries listed in the documentation to sort and limit the returned data and build pagination feature.
+API Documentation: [Open Brewery DB Documentation](https://www.openbrewerydb.org/documentation)
 
-8. Create a contact form so that user can send question along with their contact information.
+
